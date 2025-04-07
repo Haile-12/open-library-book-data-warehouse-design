@@ -9,11 +9,11 @@ file_path = r"D:\datasets\ol_dump_authors_2025-03-31.txt"
 
 # PostgreSQL database connection parameters
 db_params = {
-    'dbname': 'Second DB',
-    'user': 'postgres',
-    'password': '1256',  # Ensure this password is correct
+    'dbname': 'YOUR DB',
+    'user': 'user',
+    'password': 'your password',  # Ensure this password is correct
     'host': 'localhost',
-    'port': '5432'
+    'port': 'port number'
 }
 
 
@@ -44,7 +44,7 @@ def extract_data(file_path):
                         'latest_revision': json_data.get('latest_revision'),
                         'last_modified': json_data.get('last_modified', {}).get('value')
                     })
-                if len(data) >= 500000:  # Limit to 500,000 rows
+                if len(data) >= 500000:  # Limit to 500,000 rows for running speed but you  can remove the if ststment to run all rows
                     break
             print(pd.DataFrame(data))
             print(f"Extracted rows : {len(data)} ")
