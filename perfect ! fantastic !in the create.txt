@@ -1,0 +1,2 @@
+perfect ! fantastic !in the create new account page add confirm input for password and show and hide icon to show and hide make the department 6 drop down menu for like the students and for semister make 2 drop down first and second semister and change the degree level name to education level and make drop down menu for educational levels for teachers make your self at least 10 levels and in the log in page it is unable to login using user name please fix it
+and perfectly  add show and hide icon button  on the password field
