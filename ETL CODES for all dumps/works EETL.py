@@ -9,11 +9,11 @@ import os
 FILE_PATH = r"D:\datasets\ol_dump_works_2025-03-31.txt"
 
 DB_PARAMS = {
-    'dbname': 'Second DB',
-    'user': 'postgres',
-    'password': '1256',
+   'dbname': 'YOUR DB',
+    'user': 'user',
+    'password': 'your password',  # Ensure this password is correct
     'host': 'localhost',
-    'port': '5432'
+    'port': 'port number'
 }
 
 def extract_works_data(file_path):
