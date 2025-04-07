@@ -10,11 +10,11 @@ FILE_PATH = r"D:\datasets\ol_dump_editions_2025-03-31.txt"
 
 # PostgreSQL database connection parameters
 DB_PARAMS = {
-    'dbname': 'Second DB',
-    'user': 'postgres',
-    'password': '1256',  # Ensure this password is correct
+    'dbname': 'YOUR DB',
+    'user': 'user',
+    'password': 'your password',  # Ensure this password is correct
     'host': 'localhost',
-    'port': '5432'
+    'port': 'port number'
 }
 
 
