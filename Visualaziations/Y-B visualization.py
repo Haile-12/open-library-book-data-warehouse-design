@@ -3,7 +3,7 @@ import sqlalchemy
 import matplotlib.pyplot as plt
 
 # Create the SQLAlchemy engine for PostgreSQL connection
-DATABASE_URL = "postgresql://postgres:1256@localhost:5432/Second DB"
+DATABASE_URL = "postgresql://username:password@localhost:port_number/your_DB"
 engine = sqlalchemy.create_engine(DATABASE_URL)
 
 # Execute the SQL query
